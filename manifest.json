@@ -1,0 +1,18 @@
+{
+     "manifest_version": 2,
+     "name": "HTML Privacy",
+     "version": "1.0.0",
+     "description": "Remove ping, (on)pagehide, and (on)pageshow attributes for a little more privacy.",
+     "content_scripts": [
+            {
+         "js": [
+             "content.js"
+                ],
+         "matches": [
+             "<all_urls>"
+           ]
+       }
+   ],
+"permissions": ["<all_urls>"],
+"web_accessible_resources": ["content.js"]
+}
