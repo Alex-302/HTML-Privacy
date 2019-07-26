@@ -1,0 +1,2 @@
+$('noscript').remove();
+$('canvas').remove();
