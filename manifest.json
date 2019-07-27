@@ -1,8 +1,11 @@
 {
      "manifest_version": 2,
      "name": "HTML Privacy",
-     "version": "1.1.0",
+     "version": "1.1.1",
      "description": "Remove ping, (on)pagehide, and (on)pageshow attributes aswell as <noscript> and <canvas> html tags for a little more privacy.",
+		"browser_action": {
+    "default_popup": "popup.html"
+  },
 	 "content_scripts": [
             {
          "js": [
